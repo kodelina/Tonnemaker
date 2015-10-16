@@ -4,13 +4,13 @@ $(document).ready(function(){
         e.preventDefault();
     });
     
-    var itemImages = $( '.dall, .skaller, .votter, .grene, .sennatraad' );
+    var itemImages = $( '.diksel, .rundhovel, .bandkrakk, .tonnebunnmerker, .tonnestrammer, .rett-kniv, .banddriver, .bandhake, .krumkniv' );
     
     var languages = $( '.lang-no, .lang-en, .lang-sa, .lang-kv' );
     
     var languageButtons = $( '#lang-no, #lang-en, #lang-sa, #lang-kv' );
     
-    var objectTexts = $( '.dall-text, .skaller-text, .votter-text, .grene-text, .sennatraad-text' );    
+    var objectTexts = $( '.diksel-text, .rundhovel-text, .bandkrakk-text, .tonnebunnmerker-text, .tonnestrammer-text, .rett-kniv-text, .banddriver-text, .bandhake-text, .krumkniv-text' );    
     
     //Vis og skjul språk  
 

@@ -86,7 +86,7 @@ html,body {
 	top:0;
 	right:0;
 	left:0;
-	background: url(../images/Skjermsparer_Vidda.jpg);
+	background: url(../images/skjermsp_Tonne.jpg);
 }
 
 .front-choice {
@@ -106,23 +106,22 @@ html,body {
 
 .front-choice:nth-child(2) {
 	top:35%;
-	left:5%;
+	left:15%;
 	-webkit-transform: scale(0.8);
 	animation: scalee ease 25s infinite;
-	font-size: 10em;
 }
 
 .front-choice:nth-child(3) {
 	top:32%;
-	left:48%;
+	left:58%;
 	animation: scale ease 25s infinite;
 }
 
 .front-choice:nth-child(4) {
 	top:55%;
-	left:18%;
+	left:28%;
 	animation: scale ease 25s infinite;
-	font-size: 9.5em;
+/* 	font-size: 9.5em; */
 }
 section {
     position: relative;
@@ -132,12 +131,12 @@ section {
 /* History */
 #history {
     display:none;
-    background: url(../images/grafikkbakgrunn_Vidda.jpg);    
+    background: url(../images/Grafikkbakgrunn_Utmarka.jpg);    
 }
 .history-text {
     position: absolute;
     width: 1500px;
-    top: 520px;
+    top: 400px;
     left: 130px;
     padding: 10px;
     overflow-x: hidden;
@@ -173,69 +172,121 @@ section {
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
-.dall {
-    left: 140px;
-    top: 216px; 
+.diksel {
+    left: 52px;
+    top: 118px; 
 }
-.dall.moved {
+.diksel.moved {
     -webkit-transform: translate(1050px,200px);
     -moz-transform: translate(1050px,200px);
     transform: translate(1050px,200px);   
 }
-.dall img {
-    width: 418px;
+.diksel img {
+    width: 440px;
     height: auto;
 }
-.skaller {
-    left: 700px;   
-    top: 68px;
+.rundhovel {
+    left: 489px;   
+    top: 232px;
 }
-.skaller.moved {
-    -webkit-transform: translate(400px,330px);
-    -moz-transform: translate(400px,330px);
-    transform: translate(400px,330px);   
+.rundhovel.moved {
+    -webkit-transform: translate(700px,230px);
+    -moz-transform: translate(700px,230px);
+    transform: translate(700px,230px);   
 }
-.skaller img {
-    width: 628px;
+.rundhovel img {
+    width: 446px;
     height: auto; 
 }
-.votter {
-    left: 1450px;
-    top: 134px;
+.bandkrakk {
+    left: 847px;
+    top: 25px;
 }
-.votter.moved {
-    -webkit-transform: translate(-200px,200px);
-    -moz-transform: translate(-200px,200px);
-    transform: translate(-200px,200px);
+.bandkrakk.moved {
+    -webkit-transform: translate(240px,290px);
+    -moz-transform: translate(240px,290px);
+    transform: translate(240px,290px);
 }
-.votter img {
-    width: 370px;
+.bandkrakk img {
+    width: 577px;
     height: auto;
 }
-.grene {
-    left: 240px;
-    top: 612px;
+.tonnebunnmerker {
+    left: 58px;
+    top: 665px;
 }
-.grene.moved {
-    -webkit-transform: translate(900px,-150px);
-    -moz-transform: translate(900px,-150px);
-    transform: translate(900px,-150px);
+.tonnebunnmerker.moved {
+    -webkit-transform: translate(1050px,-200px);
+    -moz-transform: translate(1050px,-200px);
+    transform: translate(1050px,-200px);
 }
-.grene img {
-    width: 562px;
+.tonnebunnmerker img {
+    width: 572px;
     height: auto;
 }
-.sennatraad {
-    left: 1152px;
-    top: 622px;
+.tonnestrammer {
+    left: 1344px;
+    top: 33px;
 }
-.sennatraad.moved {
-    -webkit-transform: translate(-60px,-200px);
-    -moz-transform: translate(-60px,-200px);
-    transform: translate(-60px,-200px);   
+.tonnestrammer.moved {
+    -webkit-transform: translate(-200px,370px);
+    -moz-transform: translate(-200px,370px);
+    transform: translate(-200px,370px);   
 }
-.sennatraad img {
-    width: 618px;
+.tonnestrammer img {
+    width: 519px;
+    height: auto;
+}
+.rett-kniv {
+    left: 439px;
+    top: 490px;
+}
+.rett-kniv.moved {
+    -webkit-transform: translate(600px,0px);
+    -moz-transform: translate(600px,0px);
+    transform: translate(600px,0px);   
+}
+.rett-kniv img {
+    width: 687px;
+    height: auto;
+}
+.banddriver {
+    left: 721px;
+    top: 678px;
+}
+.banddriver.moved {
+    -webkit-transform: translate(370px,-200px);
+    -moz-transform: translate(370px,-200px);
+    transform: translate(370px,-200px);   
+}
+.banddriver img {
+    width: 506px;
+    height: auto;
+}
+.bandhake {
+    left: 1201px;
+    top: 769px;
+}
+.bandhake.moved {
+    -webkit-transform: translate(-150px,270px);
+    -moz-transform: translate(-150px,270px);
+    transform: translate(-150px,-270px);   
+}
+.bandhake img {
+    width: 650px;
+    height: auto;
+}
+.krumkniv {
+    left: 1348px;
+    top: 507px;
+}
+.krumkniv.moved {
+    -webkit-transform: translate(-200px,0px);
+    -moz-transform: translate(-200px,0px);
+    transform: translate(-200px,0px);   
+}
+.krumkniv img {
+    width: 511px;
     height: auto;
 }
 
@@ -253,12 +304,22 @@ section {
 .scaled {
     -webkit-transform: scale(1.7);
 }
-.skaller img.scaled {
+.bandkrakk img.scaled {
     -webkit-transform: scale(1.5);
 }
-.sennatraad img.scaled {
+.tonnestrammer img.scaled {
+    -webkit-transform: scale(1.9);
+}
+.tonnebunnmerker img.scaled {
+    -webkit-transform: scale(1.6);
+}
+.bandhake img.scaled {
     -webkit-transform: scale(1.5);
 }
+.rett-kniv img.scaled {
+    -webkit-transform: scale(1.45);
+}
+
 .info {
     background: url(../images/panel.png) no-repeat;
     width: 950px;
